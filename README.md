@@ -95,6 +95,7 @@ processors work just fine (even for macOS Sonoma).
   ```
 
   To make this change permanent, you may use the following command.
+  Use `lscpu` if you are not sure.
 
   ```
   sudo cp kvm.conf /etc/modprobe.d/kvm.conf  # for intel boxes only
@@ -136,8 +137,9 @@ processors work just fine (even for macOS Sonoma).
   5. Monterey (12.6)
   6. Ventura (13) - RECOMMENDED
   7. Sonoma (14)
+  8. Sequoia (15)
 
-  Choose a product to download (1-7): 6
+  Choose a product to download (1-8): 6
   ```
 
   Note: Modern NVIDIA GPUs are supported on HighSierra but not on later
